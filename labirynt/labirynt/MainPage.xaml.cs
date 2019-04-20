@@ -28,7 +28,7 @@ namespace labirynt
 
         void OnButtonClicked(object sender, EventArgs args)
         {
-            //DO
+            //TO DO
         }
     }
 }
