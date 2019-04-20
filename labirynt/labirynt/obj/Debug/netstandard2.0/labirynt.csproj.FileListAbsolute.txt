@@ -1,0 +1,12 @@
+C:\Users\Artur\source\repos\labirynt\labirynt\labirynt\bin\Debug\netstandard2.0\labirynt.deps.json
+C:\Users\Artur\source\repos\labirynt\labirynt\labirynt\bin\Debug\netstandard2.0\labirynt.dll
+C:\Users\Artur\source\repos\labirynt\labirynt\labirynt\bin\Debug\netstandard2.0\labirynt.pdb
+C:\Users\Artur\source\repos\labirynt\labirynt\labirynt\obj\Debug\netstandard2.0\labirynt.csprojAssemblyReference.cache
+C:\Users\Artur\source\repos\labirynt\labirynt\labirynt\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Artur\source\repos\labirynt\labirynt\labirynt\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Artur\source\repos\labirynt\labirynt\labirynt\obj\Debug\netstandard2.0\labirynt.csproj.CoreCompileInputs.cache
+C:\Users\Artur\source\repos\labirynt\labirynt\labirynt\obj\Debug\netstandard2.0\labirynt.AssemblyInfoInputs.cache
+C:\Users\Artur\source\repos\labirynt\labirynt\labirynt\obj\Debug\netstandard2.0\labirynt.AssemblyInfo.cs
+C:\Users\Artur\source\repos\labirynt\labirynt\labirynt\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Artur\source\repos\labirynt\labirynt\labirynt\obj\Debug\netstandard2.0\labirynt.dll
+C:\Users\Artur\source\repos\labirynt\labirynt\labirynt\obj\Debug\netstandard2.0\labirynt.pdb

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:labirynt"
+             x:Class="labirynt.MainPage">
+
+    <StackLayout BackgroundColor="Black">
+        <!-- Place new controls here -->
+        <Label Text="Labirynt" 
+            TextColor="White"
+            HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand"
+            FontSize="60" />
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.25*" />
+                <ColumnDefinition Width="0.6*" />
+                <ColumnDefinition Width="0.15*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.15*" />
+                <RowDefinition Height="0.15*" />
+            </Grid.RowDefinitions>
+            <Label Text=" Trudność" TextColor="White" FontSize="20" Grid.Row="0" Grid.Column="0" />
+            <Label Text=" Ilość żyć" TextColor="White" FontSize="20" Grid.Row="1" Grid.Column="0" />
+            <Slider MinimumTrackColor="Blue" ThumbColor="Blue" Minimum="0" Maximum="9" Grid.Row="0" Grid.Column="1" ValueChanged="OnLevelValueChanged" />
+            <Slider MinimumTrackColor="Blue" ThumbColor="Blue" Minimum="0" Maximum="4" Grid.Row="1" Grid.Column="1" ValueChanged="OnLivesValueChanged" />
+            <Label x:Name="levelLabel" Text="1" TextColor="White" FontSize="20" Grid.Row="0" Grid.Column="2" />
+            <Label x:Name="livesLabel" Text="1" TextColor="White" FontSize="20" Grid.Row="1" Grid.Column="2" />
+        </Grid>
+        <Button Text="Start" 
+            TextColor="White" 
+            FontSize="30" 
+            HeightRequest="75" 
+            BackgroundColor="Blue"
+            Clicked="OnButtonClicked" />
+    </StackLayout>
+
+</ContentPage>
