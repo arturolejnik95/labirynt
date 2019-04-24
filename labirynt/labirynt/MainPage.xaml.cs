@@ -11,24 +11,25 @@ namespace labirynt
     {
         public MainPage()
         {
+            NavigationPage.SetHasNavigationBar(this, false);
             InitializeComponent();
         }
 
         void OnLevelValueChanged(object sender, ValueChangedEventArgs args)
         {
             double value = args.NewValue;
-            levelLabel.Text = String.Format("{0}", Math.Ceiling(value+1));
+            levelLabel.Text = Math.Ceiling(((Slider)sender).Value + 1).ToString("F0");
         }
 
         void OnLivesValueChanged(object sender, ValueChangedEventArgs args)
         {
             double value = args.NewValue;
-            livesLabel.Text = String.Format("{0}", Math.Ceiling(value+1));
+            livesLabel.Text = Math.Ceiling(((Slider)sender).Value + 1).ToString("F0");
         }
 
-        void OnButtonClicked(object sender, EventArgs args)
+        async void OnButtonClickedAsync(object sender, EventArgs args)
         {
-            //TO DO
+            await Navigation.PushAsync(new FirstLevel());
         }
     }
 }
