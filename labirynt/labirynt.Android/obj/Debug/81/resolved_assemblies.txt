@@ -45,5 +45,4 @@ C:\Users\Artur\source\repos\labirynt\labirynt\labirynt.Android\obj\Debug\81\andr
 C:\Users\Artur\source\repos\labirynt\labirynt\labirynt.Android\obj\Debug\81\android\assets\System.Runtime.Serialization.dll
 C:\Users\Artur\source\repos\labirynt\labirynt\labirynt.Android\obj\Debug\81\android\assets\System.ServiceModel.Internals.dll
 C:\Users\Artur\source\repos\labirynt\labirynt\labirynt.Android\obj\Debug\81\android\assets\System.Web.Services.dll
-C:\Users\Artur\source\repos\labirynt\labirynt\labirynt.Android\obj\Debug\81\android\assets\Xamarin.iOS.dll
 C:\Users\Artur\source\repos\labirynt\labirynt\labirynt.Android\obj\Debug\81\android\assets\Mono.Security.dll

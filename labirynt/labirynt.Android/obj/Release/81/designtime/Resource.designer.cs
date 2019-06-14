@@ -142,6 +142,10 @@ namespace labirynt.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.design_bottom_sheet_slide_out = global::labirynt.Droid.Resource.Animation.design_bottom_sheet_slide_out;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.design_snackbar_in = global::labirynt.Droid.Resource.Animation.design_snackbar_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.design_snackbar_out = global::labirynt.Droid.Resource.Animation.design_snackbar_out;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.EnterFromLeft = global::labirynt.Droid.Resource.Animation.EnterFromLeft;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.EnterFromRight = global::labirynt.Droid.Resource.Animation.EnterFromRight;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.ExitToLeft = global::labirynt.Droid.Resource.Animation.ExitToLeft;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.ExitToRight = global::labirynt.Droid.Resource.Animation.ExitToRight;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.tooltip_enter = global::labirynt.Droid.Resource.Animation.tooltip_enter;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.tooltip_exit = global::labirynt.Droid.Resource.Animation.tooltip_exit;
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.design_appbar_state_list_animator = global::labirynt.Droid.Resource.Animator.design_appbar_state_list_animator;
@@ -1050,6 +1054,7 @@ namespace labirynt.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_search_dropdown_item_icons_2line = global::labirynt.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_search_view = global::labirynt.Droid.Resource.Layout.abc_search_view;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_select_dialog_material = global::labirynt.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.BottomTabLayout = global::labirynt.Droid.Resource.Layout.BottomTabLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_bottom_navigation_item = global::labirynt.Droid.Resource.Layout.design_bottom_navigation_item;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_bottom_sheet_dialog = global::labirynt.Droid.Resource.Layout.design_bottom_sheet_dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_layout_snackbar = global::labirynt.Droid.Resource.Layout.design_layout_snackbar;
@@ -1064,6 +1069,7 @@ namespace labirynt.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_navigation_menu = global::labirynt.Droid.Resource.Layout.design_navigation_menu;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_navigation_menu_item = global::labirynt.Droid.Resource.Layout.design_navigation_menu_item;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_text_input_password_icon = global::labirynt.Droid.Resource.Layout.design_text_input_password_icon;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.FlyoutContent = global::labirynt.Droid.Resource.Layout.FlyoutContent;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_action = global::labirynt.Droid.Resource.Layout.notification_action;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_action_tombstone = global::labirynt.Droid.Resource.Layout.notification_action_tombstone;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_media_action = global::labirynt.Droid.Resource.Layout.notification_media_action;
@@ -1079,9 +1085,11 @@ namespace labirynt.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_template_media_custom = global::labirynt.Droid.Resource.Layout.notification_template_media_custom;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_template_part_chronometer = global::labirynt.Droid.Resource.Layout.notification_template_part_chronometer;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_template_part_time = global::labirynt.Droid.Resource.Layout.notification_template_part_time;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.RootLayout = global::labirynt.Droid.Resource.Layout.RootLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.select_dialog_item_material = global::labirynt.Droid.Resource.Layout.select_dialog_item_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.select_dialog_multichoice_material = global::labirynt.Droid.Resource.Layout.select_dialog_multichoice_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.select_dialog_singlechoice_material = global::labirynt.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.ShellContent = global::labirynt.Droid.Resource.Layout.ShellContent;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::labirynt.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.tooltip = global::labirynt.Droid.Resource.Layout.tooltip;
 			global::Xamarin.Forms.Platform.Android.Resource.String.abc_action_bar_home_description = global::labirynt.Droid.Resource.String.abc_action_bar_home_description;
@@ -2109,6 +2117,18 @@ namespace labirynt.Droid
 			
 			// aapt resource value: 0x7F01000E
 			public const int design_snackbar_out = 2130771982;
+			
+			// aapt resource value: 0x7F080018
+			public const int EnterFromLeft = 2131230744;
+			
+			// aapt resource value: 0x7F080019
+			public const int EnterFromRight = 2131230745;
+			
+			// aapt resource value: 0x7F080020
+			public const int ExitToLeft = 2131230752;
+			
+			// aapt resource value: 0x7F080021
+			public const int ExitToRight = 2131230753;
 			
 			// aapt resource value: 0x7F01000F
 			public const int tooltip_enter = 2130771983;
@@ -5126,6 +5146,12 @@ namespace labirynt.Droid
 			// aapt resource value: 0x7F0C001A
 			public const int bottom = 2131492890;
 			
+			// aapt resource value: 0x7F010174
+			public const int bottomtab.navarea = 2130772340;
+			
+			// aapt resource value: 0x7F010175
+			public const int bottomtab.tabbar = 2130772341;
+			
 			// aapt resource value: 0x7F0C001B
 			public const int buttonPanel = 2131492891;
 			
@@ -5198,6 +5224,12 @@ namespace labirynt.Droid
 			// aapt resource value: 0x7F0C0032
 			public const int @fixed = 2131492914;
 			
+			// aapt resource value: 0x7F010176
+			public const int flyoutcontent.appbar = 2130772342;
+			
+			// aapt resource value: 0x7F010177
+			public const int flyoutcontent.recycler = 2130772343;
+			
 			// aapt resource value: 0x7F0C0009
 			public const int forever = 2131492873;
 			
@@ -5242,6 +5274,18 @@ namespace labirynt.Droid
 			
 			// aapt resource value: 0x7F0C0041
 			public const int list_item = 2131492929;
+			
+			// aapt resource value: 0x7F010178
+			public const int main.appbar = 2130772344;
+			
+			// aapt resource value: 0x7F010181
+			public const int main.scrollview = 2130772353;
+			
+			// aapt resource value: 0x7F010180
+			public const int main.tablayout = 2130772352;
+			
+			// aapt resource value: 0x7F010179
+			public const int main.toolbar = 2130772345;
 			
 			// aapt resource value: 0x7F0C0042
 			public const int masked = 2131492930;
@@ -5437,6 +5481,15 @@ namespace labirynt.Droid
 			
 			// aapt resource value: 0x7F0C0069
 			public const int select_dialog_listview = 2131492969;
+			
+			// aapt resource value: 0x7F010182
+			public const int shellcontent.appbar = 2130772354;
+			
+			// aapt resource value: 0x7F010184
+			public const int shellcontent.scrollview = 2130772356;
+			
+			// aapt resource value: 0x7F010183
+			public const int shellcontent.toolbar = 2130772355;
 			
 			// aapt resource value: 0x7F0C006A
 			public const int shortcut = 2131492970;
@@ -5726,6 +5779,9 @@ namespace labirynt.Droid
 			// aapt resource value: 0x7F0F001A
 			public const int abc_select_dialog_material = 2131689498;
 			
+			// aapt resource value: 0x7F020070
+			public const int BottomTabLayout = 2130837616;
+			
 			// aapt resource value: 0x7F0F001B
 			public const int design_bottom_navigation_item = 2131689499;
 			
@@ -5767,6 +5823,9 @@ namespace labirynt.Droid
 			
 			// aapt resource value: 0x7F0F0028
 			public const int design_text_input_password_icon = 2131689512;
+			
+			// aapt resource value: 0x7F020071
+			public const int FlyoutContent = 2130837617;
 			
 			// aapt resource value: 0x7F0F001B
 			public const int mr_chooser_dialog = 2131689499;
@@ -5831,6 +5890,9 @@ namespace labirynt.Droid
 			// aapt resource value: 0x7F0F0006
 			public const int notification_template_part_time = 2131689478;
 			
+			// aapt resource value: 0x7F020072
+			public const int RootLayout = 2130837618;
+			
 			// aapt resource value: 0x7F0F0038
 			public const int select_dialog_item_material = 2131689528;
 			
@@ -5839,6 +5901,9 @@ namespace labirynt.Droid
 			
 			// aapt resource value: 0x7F0F003A
 			public const int select_dialog_singlechoice_material = 2131689530;
+			
+			// aapt resource value: 0x7F020073
+			public const int ShellContent = 2130837619;
 			
 			// aapt resource value: 0x7F0F003B
 			public const int support_simple_spinner_dropdown_item = 2131689531;

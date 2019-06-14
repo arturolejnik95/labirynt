@@ -4,7 +4,17 @@
              x:Name="Content"
              x:Class="labirynt.FirstLevel">
     <AbsoluteLayout x:Name="gameScreen" BackgroundColor="Black"  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" SizeChanged="OnSizeChanged">
-        <BoxView x:Name="ball" AbsoluteLayout.LayoutBounds="0.5,0.5,20,20" AbsoluteLayout.LayoutFlags="XProportional,YProportional" Color="White" CornerRadius="300"></BoxView>
+        <BoxView x:Name="ball" AbsoluteLayout.LayoutBounds="0.15,0.08,20,20" AbsoluteLayout.LayoutFlags="XProportional,YProportional" Color="White" CornerRadius="300"></BoxView>
+        <BoxView x:Name="wall1" AbsoluteLayout.LayoutBounds="0.0,0.5,20,1.0" AbsoluteLayout.LayoutFlags="XProportional,YProportional,HeightProportional" Color="White" CornerRadius="0"></BoxView>
+        <BoxView x:Name="wall2" AbsoluteLayout.LayoutBounds="1.0,0.5,20,1.0" AbsoluteLayout.LayoutFlags="XProportional,YProportional,HeightProportional" Color="White" CornerRadius="0"></BoxView>
+        <BoxView x:Name="wall3" AbsoluteLayout.LayoutBounds="0.5,0.0,1.0,20" AbsoluteLayout.LayoutFlags="XProportional,YProportional,WidthProportional" Color="White" CornerRadius="0"></BoxView>
+        <BoxView x:Name="wall4" AbsoluteLayout.LayoutBounds="0.5,1.0,1.0,20" AbsoluteLayout.LayoutFlags="XProportional,YProportional,WidthProportional" Color="White" CornerRadius="0"></BoxView>
+        <BoxView x:Name="wallin1" AbsoluteLayout.LayoutBounds="0.17,0.15,0.7,20" AbsoluteLayout.LayoutFlags="XProportional,YProportional,WidthProportional" Color="White" CornerRadius="0"></BoxView>
+        <BoxView x:Name="wallin2" AbsoluteLayout.LayoutBounds="0.83,0.30,0.7,20" AbsoluteLayout.LayoutFlags="XProportional,YProportional,WidthProportional" Color="White" CornerRadius="0"></BoxView>
+        <BoxView x:Name="wallin3" AbsoluteLayout.LayoutBounds="0.17,0.45,0.7,20" AbsoluteLayout.LayoutFlags="XProportional,YProportional,WidthProportional" Color="White" CornerRadius="0"></BoxView>
+        <BoxView x:Name="wallin4" AbsoluteLayout.LayoutBounds="0.83,0.60,0.7,20" AbsoluteLayout.LayoutFlags="XProportional,YProportional,WidthProportional" Color="White" CornerRadius="0"></BoxView>
+        <BoxView x:Name="wallin5" AbsoluteLayout.LayoutBounds="0.17,0.75,0.7,20" AbsoluteLayout.LayoutFlags="XProportional,YProportional,WidthProportional" Color="White" CornerRadius="0"></BoxView>
+        <BoxView x:Name="meta" AbsoluteLayout.LayoutBounds="0.2,0.91,70,70" AbsoluteLayout.LayoutFlags="XProportional,YProportional" Color="Red" CornerRadius="0"></BoxView>
     </AbsoluteLayout>
 
 </ContentPage>

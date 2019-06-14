@@ -21,15 +21,15 @@ namespace labirynt
             levelLabel.Text = Math.Ceiling(((Slider)sender).Value + 1).ToString("F0");
         }
 
-        void OnLivesValueChanged(object sender, ValueChangedEventArgs args)
+        void OnLifesValueChanged(object sender, ValueChangedEventArgs args)
         {
             double value = args.NewValue;
-            livesLabel.Text = Math.Ceiling(((Slider)sender).Value + 1).ToString("F0");
+            lifesLabel.Text = Math.Ceiling(((Slider)sender).Value + 1).ToString("F0");
         }
 
         async void OnButtonClickedAsync(object sender, EventArgs args)
         {
-            await Navigation.PushAsync(new FirstLevel());
+            await Navigation.PushAsync(new FirstLevel(lifesLabel.Text.ToString(), levelLabel.Text.ToString()));
         }
     }
 }

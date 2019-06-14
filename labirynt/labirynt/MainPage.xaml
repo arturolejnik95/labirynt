@@ -24,9 +24,9 @@
             <Label Text=" Trudność" TextColor="White" FontSize="20" Grid.Row="0" Grid.Column="0" />
             <Label Text=" Ilość żyć" TextColor="White" FontSize="20" Grid.Row="1" Grid.Column="0" />
             <Slider MinimumTrackColor="Blue" ThumbColor="Blue" Minimum="0" Maximum="9" Grid.Row="0" Grid.Column="1" ValueChanged="OnLevelValueChanged" />
-            <Slider MinimumTrackColor="Blue" ThumbColor="Blue" Minimum="0" Maximum="4" Grid.Row="1" Grid.Column="1" ValueChanged="OnLivesValueChanged" />
+            <Slider MinimumTrackColor="Blue" ThumbColor="Blue" Minimum="0" Maximum="4" Grid.Row="1" Grid.Column="1" ValueChanged="OnLifesValueChanged" />
             <Label x:Name="levelLabel" Text="1" TextColor="White" FontSize="20" Grid.Row="0" Grid.Column="2" />
-            <Label x:Name="livesLabel" Text="1" TextColor="White" FontSize="20" Grid.Row="1" Grid.Column="2" />
+            <Label x:Name="lifesLabel" Text="1" TextColor="White" FontSize="20" Grid.Row="1" Grid.Column="2" />
         </Grid>
         <Button Text="Start" 
             TextColor="White" 
